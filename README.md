@@ -24,11 +24,11 @@
   </a>
   
   <a href="https://nodejs.org" target="_blank" rel="noreferrer">
-    <img src="https://seeklogo.com/vector-logo/273731/mongodb" align="center" alt="nodejs" width="40" height="40"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" align="center" alt="nodejs" width="40" height="40"/>
   </a>
   
   <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" align="center" alt="nodejs" width="40" height="40"/>
+    <img src="https://seeklogo.com/images/M/mongodb-logo-4A71340576-seeklogo.com.png" align="center" alt="nodejs" width="40" height="40"/>
   </a>
  
 </p>
