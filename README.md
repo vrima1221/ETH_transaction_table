@@ -28,7 +28,7 @@
   </a>
   
   <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-    <img src="https://seeklogo.com/images/M/mongodb-logo-4A71340576-seeklogo.com.png" align="center" alt="nodejs" width="40" height="40"/>
+    <img src="https://seeklogo.com/images/M/mongodb-logo-655F7D542D-seeklogo.com.png" align="center" alt="nodejs" width="40" height="40"/>
   </a>
  
 </p>
