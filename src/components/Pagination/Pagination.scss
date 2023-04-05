@@ -1,0 +1,67 @@
+@import '../../styles/mixins';
+@import '../../styles/variables';
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 48px;
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 16px;
+    line-height: 20px;
+    color: $color-table-font;
+  }
+
+  &__prev-button,
+  &__next-button {
+    width: 12px;
+    height: 24px;
+    background-position: center;
+    background-size: cover;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &__prev-button {
+    margin-right: 24px;
+    background-image: url('../../images/prev.svg');
+    &--active {
+      background-image: url('../../images/prev_active.svg');
+    }
+  }
+
+  &__next-button {
+    margin-left: 16px;
+    background-image: url('../../images/next.svg');
+  }
+
+  &__page-link {
+    width: 48px;
+    height: 48px;
+    margin-right: 8px;
+    border: 2px solid $color-row-even;
+    border-radius: 8px;
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    &:hover {
+      border-color: $color-blue ;
+    }
+
+    &:active {
+      background-color: $color-blue;
+    }
+
+    &--active {
+      color: $color-white;
+      background-color: $color-blue;
+    }
+  }
+}

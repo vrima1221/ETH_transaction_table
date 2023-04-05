@@ -1,3 +1,10 @@
-.starter {
-  font-size: 18px;
+@import './styles/reset';
+@import './styles/variables';
+
+.wrapper {
+  min-height: calc(100vh - 72px - 120px);
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 20px;
 }

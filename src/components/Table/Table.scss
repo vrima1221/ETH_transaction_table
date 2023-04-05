@@ -1,0 +1,56 @@
+@import '../../styles/mixins';
+@import '../../styles/variables';
+
+.container {
+  // width: 1180p;
+  overflow-x: auto;
+}
+
+.table {
+  margin: 0 auto 56px;
+  width: 100%;
+
+  &__header {
+    height: 48px;
+    background-color: $color-blue;
+    color: $color-white;
+
+    &-cell {
+      text-align: left;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      padding: 0 12px;
+    }
+
+    &-cell:first-child {
+      border-radius: 8px 0 0 0;
+    }
+
+    &-cell:last-child {
+      border-radius: 0 8px 0 0;
+    }
+  }
+
+  &__data-row {
+    height: 32px;
+    background-color: $color-row-odd;
+    color: $color-table-font;
+
+    &:nth-child(odd) {
+      background-color: $color-row-even;
+    }
+  }
+
+  &__data-cell {
+    padding: 0 12px;
+    text-overflow: ellipsis;
+    max-width: 100px;
+    overflow: hidden;
+  }
+
+  &__loader {
+    width: 150px;
+    margin: 0 auto;
+  }
+}

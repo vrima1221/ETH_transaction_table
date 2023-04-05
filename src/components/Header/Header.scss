@@ -1,0 +1,34 @@
+@import '../../styles/mixins';
+@import '../../styles/variables';
+
+.header {
+  background-color: $color-blue;
+  margin-bottom: 60px;
+  
+  &__container {
+    max-width: 1200px;
+    height: 64px;
+    padding: 10px 0;
+    margin: 0 auto;
+    
+    @include onTablet {
+      height: 72px;
+      padding: 10px 0 14px 20px;
+    }
+  }
+
+  &__logo {
+    width: 136px;
+    height: 50px;
+
+    margin: 0 auto;
+
+    font-size: 40px;
+    line-height: 49px;
+    color: $color-white;
+
+    @include onTablet {
+      margin: 0;
+    }
+  }
+}
