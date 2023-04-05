@@ -6,7 +6,7 @@ export const getTransationsForPage = async (
   filter: string,
   input: string | number,
 ) => {
-  const transactions = await axios.get('http://localhost:5000/transactions', {
+  const transactions = await axios.get('https://eth-table-api.herokuapp.com/transactions', {
     params: {
       page,
       limit,
